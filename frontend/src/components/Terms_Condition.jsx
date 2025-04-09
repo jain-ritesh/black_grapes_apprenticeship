@@ -1,13 +1,13 @@
-import React from 'react'
-import Nav from './Nav'
-import Footer from './Footer'
+import React from 'react';
+import Nav from './Nav';
+import Footer from './Footer';
 
 const Terms_Condition = () => {
   return (
     <div className="w-full bg-gray-100">
       <Nav />
 
-      <div className="flex justify-center items-center px-2 py-16 ">
+      <div className="flex justify-center items-center px-2 py-16">
         <div className="w-full max-w-4xl bg-gray-200 rounded-xl shadow-sm p-10 z-50 mt-10">
           <h2 className="text-2xl font-bold text-amber-500 mb-8 text-center">Terms & Conditions</h2>
 
@@ -26,22 +26,22 @@ const Terms_Condition = () => {
 
             <h3 className="text-xl font-semibold text-blue-700 mt-6 mb-3">General Terms</h3>
 
-            <ul className="list-decimal list-inside space-y-2">
-              <li>To access and use the Services, you agree to provide true, accurate, and complete information to us during and after registration, and you shall be responsible for all acts done through the use of your registered account on the Platform.</li>
-              <li>Neither we nor any third parties provide any warranty or guarantees as to the accuracy, timeliness, performance, completeness, or suitability of the information and materials offered on this website or through the Services, for any specific purpose.</li>
-              <li>Your use of our Services and the Platform is solely and entirely at your own risk and discretion, for which we shall not be liable to you in any manner. You are required to independently assess and ensure that the Services meet your requirements.</li>
-              <li>The contents of the Platform and the Services are proprietary to us and are licensed to us. You will not have any authority to claim any intellectual property rights, title, or interest in its contents.</li>
-              <li>You acknowledge that unauthorized use of the Platform and/or the Services may lead to action against you as per these Terms of Use and/or applicable laws.</li>
-              <li>You agree to pay us the charges associated with availing of the Services.</li>
-              <li>You agree not to use the Platform and/or Services for any purpose that is unlawful, illegal, or forbidden by these Terms, or Indian or local laws that might apply to you.</li>
-              <li>You agree and acknowledge that the website and the Services may contain links to other third-party websites. On accessing these links, you will be governed by the terms of use, privacy policy, and such other policies of such third-party websites.</li>
-              <li>You understand that upon initiating a transaction for availing of the Services, you are entering into a legally binding and enforceable contract with the Platform Owner.</li>
-              <li>You shall indemnify and hold harmless Platform Owner, its affiliates, group companies, and their respective officers from any claim or demand arising out of your breach of these Terms of Use, Privacy Policy, or other Policies.</li>
-              <li>In no event will the Platform Owner be liable for any indirect, consequential, incidental, or punitive damages, including damages for loss of profits or data arising from the use of the Services.</li>
-              <li>Notwithstanding anything contained in these Terms, the parties shall not be liable for any failure to perform an obligation under these Terms if prevented by a force majeure event.</li>
-              <li>These Terms shall be governed by and construed in accordance with the laws of India.</li>
-              <li>All disputes arising out of or in connection with these Terms shall be subject to the exclusive jurisdiction of the courts in <strong>Indore, Madhya Pradesh</strong>.</li>
-              <li>All communications related to these Terms must be directed to us using the contact information provided on this website.</li>
+            <ul className="space-y-2">
+              <li><strong>1.</strong> To access and use the Services, you agree to provide true, accurate, and complete information to us during and after registration, and you shall be responsible for all acts done through the use of your registered account on the Platform.</li>
+              <li><strong>2.</strong> Neither we nor any third parties provide any warranty or guarantees as to the accuracy, timeliness, performance, completeness, or suitability of the information and materials offered on this website or through the Services, for any specific purpose.</li>
+              <li><strong>3.</strong> Your use of our Services and the Platform is solely and entirely at your own risk and discretion, for which we shall not be liable to you in any manner. You are required to independently assess and ensure that the Services meet your requirements.</li>
+              <li><strong>4.</strong> The contents of the Platform and the Services are proprietary to us and are licensed to us. You will not have any authority to claim any intellectual property rights, title, or interest in its contents.</li>
+              <li><strong>5.</strong> You acknowledge that unauthorized use of the Platform and/or the Services may lead to action against you as per these Terms of Use and/or applicable laws.</li>
+              <li><strong>6.</strong> You agree to pay us the charges associated with availing of the Services.</li>
+              <li><strong>7.</strong> You agree not to use the Platform and/or Services for any purpose that is unlawful, illegal, or forbidden by these Terms, or Indian or local laws that might apply to you.</li>
+              <li><strong>8.</strong> You agree and acknowledge that the website and the Services may contain links to other third-party websites. On accessing these links, you will be governed by the terms of use, privacy policy, and such other policies of such third-party websites.</li>
+              <li><strong>9.</strong> You understand that upon initiating a transaction for availing of the Services, you are entering into a legally binding and enforceable contract with the Platform Owner.</li>
+              <li><strong>10.</strong> You shall indemnify and hold harmless Platform Owner, its affiliates, group companies, and their respective officers from any claim or demand arising out of your breach of these Terms of Use, Privacy Policy, or other Policies.</li>
+              <li><strong>11.</strong> In no event will the Platform Owner be liable for any indirect, consequential, incidental, or punitive damages, including damages for loss of profits or data arising from the use of the Services.</li>
+              <li><strong>12.</strong> Notwithstanding anything contained in these Terms, the parties shall not be liable for any failure to perform an obligation under these Terms if prevented by a force majeure event.</li>
+              <li><strong>13.</strong> These Terms shall be governed by and construed in accordance with the laws of India.</li>
+              <li><strong>14.</strong> All disputes arising out of or in connection with these Terms shall be subject to the exclusive jurisdiction of the courts in <strong>Indore, Madhya Pradesh</strong>.</li>
+              <li><strong>15.</strong> All communications related to these Terms must be directed to us using the contact information provided on this website.</li>
             </ul>
           </section>
         </div>
@@ -49,7 +49,7 @@ const Terms_Condition = () => {
 
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Terms_Condition
+export default Terms_Condition;

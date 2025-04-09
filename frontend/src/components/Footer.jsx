@@ -65,7 +65,7 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold text-amber-500 mb-3">Quick Links</h3>
           <div className="flex flex-col gap-2 text-sm text-gray-300">
-            <Link to= '/privacy-policy'>Privacy Policy</Link>
+            <a href= '/privacy-policy'>Privacy Policy</a>
             <a href="/terms-condition">Terms & Conditions</a>
           </div>
         </div>

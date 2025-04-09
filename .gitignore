@@ -1,0 +1,8 @@
+# Global ignores
+node_modules/
+.env
+
+# Subfolders
+blackgrapesgroupbackend/node_modules/
+blackgrapesgroupbackend/.env
+frontend/node_modules/
