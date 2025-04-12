@@ -1,8 +1,20 @@
 import React from "react";
 import logo from "../assets/image.png";
 import { Link } from "react-router-dom";
+// import { useNavigate} from 'react-router-dom';
+
 
 const Footer = () => {
+
+  // const navigate = useNavigate()
+
+  // const handlePrivacyClick =()=>{
+  //  navigate('/privacy-policy')
+  // }
+  // const handleConditionClick =()=>{
+  //   navigate('/terms-condition')
+  // }
+
   return (
     <footer className="bg-gray-900 text-white px-6 py-10 md:px-20">
       <div className="grid md:grid-cols-3 gap-10">
@@ -10,7 +22,7 @@ const Footer = () => {
         <div>
           <div className="flex items-center gap-3 mb-4">
             <img src={logo} alt="logo" className="h-12 w-12" />
-            <h3 className="text-xl font-semibold uppercase">Black Grapes Group</h3>
+            <h3 className="text-xl font-semibold uppercase ">Black Grapes Group</h3>
           </div>
           <p className="text-sm text-gray-400">
             Black Grapes Group offers dynamic internships to empower future tech leaders with hands-on experience in cutting-edge technologies.
@@ -64,9 +76,13 @@ const Footer = () => {
         {/* Right Section */}
         <div>
           <h3 className="text-lg font-semibold text-amber-500 mb-3">Quick Links</h3>
-          <div className="flex flex-col gap-2 text-sm text-gray-300">
-            <a href= '/privacy-policy'>Privacy Policy</a>
-            <a href="/terms-condition">Terms & Conditions</a>
+          <div className="flex flex-col gap-2 text-sm text-gray-300 ">
+            {/* <span onClick={handlePrivacyClick} className="hover:text-amber-500 cursor-pointer">Privacy Policy</span> */}
+            {/* <span onClick={handleConditionClick} className="hover:text-amber-500 cursor-pointer">Terms & Conditions</span> */}
+
+            <Link to="/privacy-policy">Privacy Policy</Link>
+            <Link to="/terms-condition">Terms & Conditions</Link>
+
           </div>
         </div>
       </div>

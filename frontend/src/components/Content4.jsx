@@ -1,8 +1,8 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
-
 import { Card, CardHeader } from './ui/card'
 import { Button } from './ui/button'
+
 
 const Content4 = () => {
 
@@ -11,6 +11,9 @@ const Content4 = () => {
   const handleRedirect = () => {
     navigate('/register');
   };
+  const handleRegisterfor300 = ()=>{
+    navigate('/demat-account')
+  }
 
   return (
     <div className="px-4 py-10">
@@ -39,7 +42,9 @@ const Content4 = () => {
             <span className="text-xl font-semibold line-through">&#x20B9; 500</span>{' '}
             <span className="text-2xl sm:text-3xl font-bold">&#x20B9; 300 /- Only</span>
             <br />
-            <Button className="text-base sm:text-lg px-6 py-4 bg-amber-500 hover:bg-amber-600 mt-5 cursor-pointer">
+            <Button
+            onClick={handleRegisterfor300}
+            className="text-base sm:text-lg px-6 py-4 bg-amber-500 hover:bg-amber-600 mt-5 cursor-pointer">
               Register for &#x20B9;300
             </Button>
           </div>

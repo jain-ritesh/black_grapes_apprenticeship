@@ -3,7 +3,7 @@ import React from "react";
 const RegisterFrom = () => {
   return (
     <div className="flex justify-center items-center min-h-screen bg-gray-100 ">
-      <div className="bg-white p-10 rounded-2xl shadow-lg w-full max-w-3xl mt-20">
+      <div className="bg-white p-10 rounded-2xl shadow-lg w-full max-w-3xl mt-10">
         <h2 className="text-xl font-semibold text-center mb-4">
           Student Details Page
         </h2>

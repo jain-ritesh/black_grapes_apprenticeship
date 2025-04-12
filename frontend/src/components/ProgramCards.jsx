@@ -13,7 +13,7 @@ const ProgramCards = () => {
                 <span className='font-bold'>Mode:</span> Online
             </CardContent>
              <CardFooter>          
-            <Button className=" bg-orange-500  hover:bg-orange-600 p-5 cursor-pointer">Learn More</Button>
+             <a href='https://meet.google.com/hmr-jjfb-bzv?pli=1' target='_blank'> <Button className=" bg-orange-500  hover:bg-orange-600 p-5 cursor-pointer">Learn More</Button></a>
             </CardFooter>
     </Card> 
      <Card  className=" bg-white rounded-xl shadow-md transition-all duration-300 hover:shadow-2xl hover:scale-105">
@@ -24,7 +24,7 @@ const ProgramCards = () => {
                 <span className='font-bold'>Mode:</span> Online
             </CardContent>  
             <CardFooter>          
-            <Button className=" bg-orange-500  hover:bg-orange-600 p-5 cursor-pointer">Learn More</Button>
+            <a href='https://meet.google.com/hmr-jjfb-bzv?pli=1' target='_blank'> <Button className=" bg-orange-500  hover:bg-orange-600 p-5 cursor-pointer">Learn More</Button></a>
             </CardFooter>
     </Card> 
      <Card  className=" bg-white rounded-xl shadow-md transition-all duration-300 hover:shadow-2xl hover:scale-105">
@@ -35,7 +35,7 @@ const ProgramCards = () => {
                 <span className='font-bold'>Mode:</span> Online
             </CardContent>
             <CardFooter>          
-            <Button className=" bg-orange-500  hover:bg-orange-600 p-5 cursor-pointer">Learn More</Button>
+            <a href='https://meet.google.com/hmr-jjfb-bzv?pli=1' target='_blank'> <Button className=" bg-orange-500  hover:bg-orange-600 p-5 cursor-pointer">Learn More</Button></a>
             </CardFooter>
     </Card> 
      <Card  className=" bg-white rounded-xl shadow-md transition-all duration-300 hover:shadow-2xl hover:scale-105">
@@ -57,7 +57,7 @@ const ProgramCards = () => {
                 <span className='font-bold'>Mode:</span> Online
             </CardContent>
             <CardFooter>          
-            <Button className=" bg-orange-500  hover:bg-orange-600 p-5 cursor-pointer">Learn More</Button>
+            <a href='https://meet.google.com/hmr-jjfb-bzv?pli=1' target='_blank'> <Button className=" bg-orange-500  hover:bg-orange-600 p-5 cursor-pointer">Learn More</Button></a>
             </CardFooter>
     </Card> 
      <Card  className=" bg-white rounded-xl shadow-md transition-all duration-300 hover:shadow-2xl hover:scale-105">
@@ -68,7 +68,7 @@ const ProgramCards = () => {
                 <span className='font-bold'>Mode:</span> Offline
             </CardContent>
             <CardFooter>          
-            <Button className=" bg-orange-500  hover:bg-orange-600 p-5 cursor-pointer">Learn More</Button>
+            <a href='https://meet.google.com/hmr-jjfb-bzv?pli=1' target='_blank'><Button className=" bg-orange-500  hover:bg-orange-600 p-5 cursor-pointer">Learn More</Button></a>
             </CardFooter>
     </Card> 
      <Card  className=" bg-white rounded-xl shadow-md transition-all duration-300 hover:shadow-2xl hover:scale-105">
@@ -79,7 +79,7 @@ const ProgramCards = () => {
                 <span className='font-bold'>Mode:</span> Offline
             </CardContent>
             <CardFooter>          
-            <Button className=" bg-orange-500  hover:bg-orange-600 p-5 cursor-pointer">Learn More</Button>
+            <a href='https://meet.google.com/hmr-jjfb-bzv?pli=1' target='_blank'><Button className=" bg-orange-500  hover:bg-orange-600 p-5 cursor-pointer">Learn More</Button></a>
             </CardFooter>
     </Card> 
      <Card  className=" bg-white rounded-xl shadow-md transition-all duration-300 hover:shadow-2xl hover:scale-105">
@@ -90,7 +90,7 @@ const ProgramCards = () => {
                 <span className='font-bold'>Mode:</span> Offline
             </CardContent>
             <CardFooter>          
-            <Button className=" bg-orange-500  hover:bg-orange-600 p-5 cursor-pointer">Learn More</Button>
+            <a href='https://meet.google.com/hmr-jjfb-bzv?pli=1' target='_blank'> <Button className=" bg-orange-500  hover:bg-orange-600 p-5 cursor-pointer">Learn More</Button></a>
             </CardFooter>
     </Card> 
      <Card  className=" bg-white rounded-xl shadow-md transition-all duration-300 hover:shadow-2xl hover:scale-105">
@@ -101,7 +101,7 @@ const ProgramCards = () => {
                 <span className='font-bold'>Mode:</span> Hybrid (Online & Offline)
             </CardContent>
             <CardFooter>          
-            <Button className=" bg-orange-500  hover:bg-orange-600 p-5 cursor-pointer">Learn More</Button>
+            <a href='https://meet.google.com/hmr-jjfb-bzv?pli=1' target='_blank'> <Button className=" bg-orange-500  hover:bg-orange-600 p-5 cursor-pointer">Learn More</Button></a>
             </CardFooter>
     </Card> 
      <Card  className=" bg-white rounded-xl shadow-md transition-all duration-300 hover:shadow-2xl hover:scale-105">
@@ -112,7 +112,7 @@ const ProgramCards = () => {
                 <span className='font-bold'>Mode:</span> Online
             </CardContent>
             <CardFooter>          
-            <Button className=" bg-orange-500  hover:bg-orange-600 p-5 cursor-pointer">Learn More</Button>
+            <a href='https://meet.google.com/hmr-jjfb-bzv?pli=1' target='_blank'>  <Button className=" bg-orange-500  hover:bg-orange-600 p-5 cursor-pointer">Learn More</Button></a>
             </CardFooter>
     </Card> 
      <Card  className=" bg-white rounded-xl shadow-md transition-all duration-300 hover:shadow-2xl hover:scale-105">
@@ -123,7 +123,7 @@ const ProgramCards = () => {
                 <span className='font-bold'>Mode:</span> Online
             </CardContent>
             <CardFooter>          
-            <Button className=" bg-orange-500  hover:bg-orange-600 p-5 cursor-pointer">Learn More</Button>
+            <a href='https://meet.google.com/hmr-jjfb-bzv?pli=1' target='_blank'> <Button className=" bg-orange-500  hover:bg-orange-600 p-5 cursor-pointer">Learn More</Button></a>
             </CardFooter>
     </Card> 
      <Card  className=" bg-white rounded-xl shadow-md transition-all duration-300 hover:shadow-2xl hover:scale-105">
@@ -134,7 +134,7 @@ const ProgramCards = () => {
                 <span className='font-bold'>Mode:</span> Online
             </CardContent>
             <CardFooter>          
-            <Button className=" bg-orange-500  hover:bg-orange-600 p-5 cursor-pointer">Learn More</Button>
+            <a href='https://meet.google.com/hmr-jjfb-bzv?pli=1' target='_blank'> <Button className=" bg-orange-500  hover:bg-orange-600 p-5 cursor-pointer">Learn More</Button></a>
             </CardFooter>
     </Card> 
      <Card  className=" bg-white rounded-xl shadow-md transition-all duration-300 hover:shadow-2xl hover:scale-105">
@@ -145,7 +145,7 @@ const ProgramCards = () => {
                 <span className='font-bold'>Mode:</span> Hybrid (Online & Offline)
             </CardContent>
             <CardFooter>          
-            <Button className=" bg-orange-500  hover:bg-orange-600 p-5 cursor-pointer">Learn More</Button>
+            <a href='https://meet.google.com/hmr-jjfb-bzv?pli=1' target='_blank'> <Button className=" bg-orange-500  hover:bg-orange-600 p-5 cursor-pointer">Learn More</Button></a>
             </CardFooter>
     </Card> 
      <Card  className=" bg-white rounded-xl shadow-md transition-all duration-300 hover:shadow-2xl hover:scale-105">
@@ -156,7 +156,7 @@ const ProgramCards = () => {
                 <span className='font-bold'>Mode:</span> Offline
             </CardContent>
             <CardFooter>          
-            <Button className=" bg-orange-500  hover:bg-orange-600 p-5 cursor-pointer">Learn More</Button>
+            <a href='https://meet.google.com/hmr-jjfb-bzv?pli=1' target='_blank'> <Button className=" bg-orange-500  hover:bg-orange-600 p-5 cursor-pointer">Learn More</Button></a>
             </CardFooter>
     </Card> 
     </div>

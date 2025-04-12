@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <div>
       {/* Fixed Navbar */}
-      <Nav />
+      <Nav className={'mb-5'} />
 
       {/* Slider Section */}
       <section id="slider">

@@ -25,11 +25,11 @@ const SliderImage = () => {
   };
 
   return (
-    <div className="relative w-full h-[60vh] sm:h-[50vh] md:h-[100vh]  overflow-hidden shadow-lg">
+    <div className="relative w-full  h-[60vh] sm:h-[50vh] md:h-[100vh]  overflow-hidden shadow-lg pt-20 ">
       <img
         src={images[currentIndex]}
         alt={`Slide ${currentIndex}`}
-        className="absolute inset-0 w-full h-full object-cover object-center transition-opacity duration-700"
+        className="absolute  inset-0 w-full h-full object-cover object-center transition-opacity duration-700"
       />
 
       {/* Dots Navigation */}
@@ -52,3 +52,4 @@ const SliderImage = () => {
 };
 
 export default SliderImage;
+
